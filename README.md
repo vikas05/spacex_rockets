@@ -1,16 +1,27 @@
 # flutter_space_x_rockets
 
-A new Flutter project.
+![App Demo](demo.gif)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+ A Flutter application that fetches and displays SpaceX rockets using GetX for state management and HTTP for API calls.
+ Technologies Used
+   Flutter (Dart)
+   GetX (State Management)
+   HTTP (API Calls)
 
-A few resources to get you started if this is your first Flutter project:
+  Features
+    Fetches real-time SpaceX rocket data 📡
+    Displays rocket details (name, country, engines) 🚀
+    Simple & Clean UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ How to Run the Project?
+  Clone the repository
+  git clone '<https://github.com/your-username/spacex_rockets.git>'
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  Navigate to the project folder
+   cd spacex_rockets
+  Get dependencies
+   flutter pub get  
+  Run the app
+   flutter run
